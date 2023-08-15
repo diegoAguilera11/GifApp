@@ -16,7 +16,7 @@ export const GifApp = () => {
         setCategories([newCategory, ...categories,]);
     }
     return (
-        <div className="min-h-screen  px-10 py-20">
+        <div className="min-h-screen bg-gradient-to-bl from-black to-blue-800 px-10 py-20">
             {/* Title */}
             <h1 className=" font-bold mb-8 text-center text-5xl text-white">Gif App</h1>
 
